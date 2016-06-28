@@ -1,0 +1,24 @@
+{
+  "name": "laravel-movies",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Andre Luiz Pergentino da Silva <andrepgsilva@outlook.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "3.3.5"
+  },
+  "resolutions": {
+    "bootstrap-sass": "3.3.5"
+  }
+}
