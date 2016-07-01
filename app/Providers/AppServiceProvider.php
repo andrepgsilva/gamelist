@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace gamelist\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

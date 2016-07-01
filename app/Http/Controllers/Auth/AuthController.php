@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace gamelist\Http\Controllers\Auth;
 
-use App\User;
+use gamelist\User;
 use Validator;
-use App\Http\Controllers\Controller;
+use gamelist\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

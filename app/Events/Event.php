@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace gamelist\Events;
 
 abstract class Event
 {

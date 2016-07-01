@@ -34,7 +34,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => App\User::class,
+        'model' => gamelist\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
