@@ -16,3 +16,7 @@
 // });
 
 Route::get('/admin', 'Admin@home');
+Route::get('/index', function ()
+{
+    return view('layout');
+});
