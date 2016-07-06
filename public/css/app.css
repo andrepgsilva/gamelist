@@ -1,8 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: slkscr;
-  src: url("/fonts/PressStart2P.ttf"); }
-
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -3979,8 +3975,8 @@ tbody.collapse.in {
       color: #ccc; }
 
 .navbar-inverse {
-  background-color: #1F1D25;
-  border-color: #070708; }
+  background-color: #222;
+  border-color: #090909; }
   .navbar-inverse .navbar-brand {
     color: #9d9d9d; }
     .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
@@ -3995,7 +3991,7 @@ tbody.collapse.in {
       background-color: transparent; }
   .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #070708; }
+    background-color: #090909; }
   .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
     color: #444;
     background-color: transparent; }
@@ -4007,15 +4003,15 @@ tbody.collapse.in {
       background-color: #fff; }
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
-    border-color: #0e0d11; }
+    border-color: #101010; }
   .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #070708;
+    background-color: #090909;
     color: #fff; }
   @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-      border-color: #070708; }
+      border-color: #090909; }
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-      background-color: #070708; }
+      background-color: #090909; }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
       color: #9d9d9d; }
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -4023,7 +4019,7 @@ tbody.collapse.in {
         background-color: transparent; }
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #fff;
-      background-color: #070708; }
+      background-color: #090909; }
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #444;
       background-color: transparent; } }
@@ -5741,7 +5737,30 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+@font-face {
+  font-family: PressStart2P;
+  src: url("/fonts/PressStart2P.ttf"); }
+
 body {
-  font-family: slkscr; }
+  background-color: #474854; }
+
+.navbar-inverse .container .navbar-header a.navbar-brand {
+  padding: 0;
+  height: 100%;
+  width: auto; }
+
+.navbar-inverse .nav > li > a {
+  font-family: PressStart2P;
+  font-size: 10px;
+  color: #f4f5f5;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+footer.footer-site {
+  position: fixed;
+  background-color: #18c2a9;
+  height: 200px;
+  width: 100%;
+  bottom: 0; }
 
 /*# sourceMappingURL=app.css.map */

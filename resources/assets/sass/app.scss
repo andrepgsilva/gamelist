@@ -1,6 +1,42 @@
-@import "variables";
 @import "vendor/bootstrap-sass/assets/stylesheets/bootstrap";
 
+@font-face {
+    font-family: PressStart2P;
+    src: url('/fonts/PressStart2P.ttf');
+}
+
 body {
-    font-family: slkscr;
+    background-color: #474854;
+}
+
+$navbar-inverse-bg : #1F1D25;
+// $navbar-height: 100px;
+
+.navbar-inverse {
+
+    .container {
+
+        .navbar-header a.navbar-brand{
+            padding: 0;
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    .nav > li > a {
+        font-family: PressStart2P;
+        font-size: 10px;
+        color: #f4f5f5;
+        // color: #59D9C9;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+footer.footer-site {
+    position: fixed;
+    background-color: rgb(24, 194, 169);
+    height: 200px;
+    width: 100%;
+    bottom: 0;
 }
