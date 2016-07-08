@@ -3,35 +3,94 @@
     <head>
         <meta charset="utf-8">
         <title>@yield('title')</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}" />
         {{-- <link rel="stylesheet" type="text/css" href="{{ elixir('fonts/font-awesome.min.css') }}" /> --}}
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <script type="text/javascript" src="{{ elixir('js/jquery.min.js') }}" ></script>
         <script type="text/javascript" src="{{ elixir('js/bootstrap.min.js') }}" ></script>
         <style>
-            .footer-site .container .col-md-6:first-child {
-                /*margin-top: 30px;*/
-                margin-top: 2%;
-                color: #f4f5f5;
+            body {
+                font-size: 62.5%;
             }
 
-            .footer-site .container .col-md-6:first-child h1{
-                font-family: PressStart2P;
-                font-size: 20px;
+            @media screen and (min-width: 713px) and (max-width: 991px) {
+                .footer-site .container .col-md-6:first-child {
+                    margin-top: 1%;
+                    color: #f4f5f5;
+                    float: left;
+                }
+
+                .footer-site .container .col-md-6:last-child {
+                    margin-top: 2.5%;
+                }
+
+                .footer-site .container .col-md-6:first-child h1{
+                    font-family: PressStart2P;
+                    font-size: 2.5em;
+                }
+
+                .footer-site .container .col-md-6:first-child p{
+                    font-family: PressStart2P;
+                    font-size: 1.5em;
+                }
+
+                .footer-site .container .col-md-6:last-child .col-md-6 > a{
+                    color: #f4f5f5;
+                    font-size: 1.8em;
+                }
             }
 
-            .footer-site .container .col-md-6:first-child p{
-                font-family: PressStart2P;
-                font-size: 11px;
+            /* Dispositive rules */
+            @media screen and (max-width: 712px) {
+                footer.footer-site {
+                    height: 100px;
+                }
 
+                .footer-site .container .col-md-6:first-child h1{
+                    color: #f4f5f5;
+                    font-family: PressStart2P;
+                    font-size: 2.3em;
+                }
+
+                .footer-site .container .col-md-6:first-child p{
+                    color: #f4f5f5;
+                    font-family: PressStart2P;
+                    font-size: 1.3em;
+                }
+
+                .footer-site .container .col-md-6:last-child .col-md-6 > a{
+                    color: #f4f5f5;
+                    font-size: 1.0em;
+                }
             }
 
-            .footer-site .container .col-md-6:last-child {
-                margin-top: 3%;
-            }
+            @media screen and (min-width: 992px) {
 
-            .footer-site .container .col-md-6:last-child .col-md-6 > a{
-                color: #f4f5f5;
+                .footer-site .container .col-md-6:first-child {
+                    margin-top: 1%;
+                    color: #f4f5f5;
+                }
+
+                .footer-site .container .col-md-6:last-child {
+                    margin-top: 2.5%;
+                }
+
+                .footer-site .container .col-md-6:first-child h1{
+                    font-family: PressStart2P;
+                    font-size: 3.5em;
+                }
+
+                .footer-site .container .col-md-6:first-child p{
+                    font-family: PressStart2P;
+                    font-size: 1.5em;
+                }
+
+
+                .footer-site .container .col-md-6:last-child .col-md-6 > a{
+                    color: #f4f5f5;
+                    font-size: 1.8em;
+                }
             }
         </style>
     </head>
