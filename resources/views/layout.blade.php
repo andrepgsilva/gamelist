@@ -14,6 +14,18 @@
                 font-size: 62.5%;
             }
 
+            nav.navbar {
+                margin-bottom: 0;
+            }
+
+            .navbar #navbar-collapse ul.navbar-nav li > a:hover {
+                color: #59D9C9;
+            }
+
+            .footer-site .container .col-md-6:last-child .col-md-6 > a:hover{
+                color: #59D9C9;
+            }
+
             @media screen and (min-width: 713px) and (max-width: 991px) {
                 .footer-site .container .col-md-6:first-child {
                     margin-top: 1%;
@@ -117,6 +129,15 @@
                 </div>
             </div>
         </nav>
+        <div class="row">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1>Encontre novos games e divirta-se!</h1>
+                    <p></p>
+                    <p><a href="#" class="btn btn-primary btn-lg">Look here for best deals!</a></p>
+                </div>
+            </div>
+        </div>        
         <footer class="footer-site">
             <div class="container">
                 <div class="row">
